@@ -1,0 +1,80 @@
+<html>
+<title>Puzzle Game</title>
+<head>
+<link rel="stylesheet" href="mani.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+
+<Style>
+h1 {
+     background-color: #FFC0CB;
+    text-align: center;}
+h2
+{
+  background-color: #808080;}
+p1 {
+    font-size:20px;
+    
+}
+p2 {
+     font-size:20px;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+   image-align: center;
+}
+snake { background-color:green;
+text-align: center;
+}
+.lk{
+position:relative;
+left:600px;
+font-size:20px;
+
+}
+</Style>
+
+<body>
+<nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo">Game</label>
+      <ul>
+        <li><a class="active" href="one.html">Home</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </nav>
+<h1>SNAKE GAME</h1>
+<p1>
+Snake Game is a single-player game where the snake gets bigger by eating the food and tries to save itself from the boundary of the rectangle and if the snake eats their own body the game will be over.
+
+We are going to build a Snake Game using HTML, CSS, and JavaScript.
+
+Prerequisite: 
+
+Basic understanding of HTML, CSS, and JavaScript.
+Game Rules:
+
+If the snake goes out of the boundary or eats its own body the game will be over.
+Approach:  We will create three files (an HTML file, a CSS file, and JavaScript File) we will give styling in the CSS file and functionality in the JavaScript part. Movement and food will be created in a JavaScript file. We will be implementing the functionality mentioned below:
+
+Select the board id from the HTML and add functionality to that board using JavaScript like board size, snake color, food color, Snake size, food size snake position.
+Create the background of a game using the JavaScript fillstyle() method.
+Place food on the board using Math.random().
+Select the speed of the snake using setInterval().</p1><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAATlBMVEUAAAAAgQD/AAAAhAAAbwAAWAAAhQAASQAAcgAATwBpAAAAQwAAdgAAJAAAhwBkAAAAOgAAYAAAMgAAFwAAeQAAPwAAZgAAHwApAABsAACHG59PAAAAwUlEQVR4nO3VOQ7CQBAEQGCNT+6b/38UYXYTJCJkrQ1VUYfdycxsBgAAAAAAAAAAAAAAAAAAAAAAAAD/67B8aXafwzF3ya90m/BU1k0KVQyrFE7r3CW/0pXzXtGEGKoY6hRWFo6bhRaOX7yloWjKGOIJDemWhonf0nNd9PZVCrv3cLnmLgkAAAAAAAAAAAAAAAAAAAAAAExfu+21t9xFBrOI7rmLDCYtbHMXGYyF02fh9P3Pwt/9FgAAAAAAAADwox73+weKaYRIlAAAAABJRU5ErkJggg==" alt="">
+</br>
+<a href="play.html" class= "lk" style="color:back;text-align:center;">play Game</a>
+</body>
+</html>
